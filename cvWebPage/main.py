@@ -17,11 +17,11 @@ app.add_middleware(
 def returnIndex():
     return FileResponse('./assets/index.html')
 
-@app.get("/assets/index-f1aa1be4.js")
+@app.get("/assets/index-fbf8f891.js")
 def returnJsAsset():
-    return FileResponse(f'./assets/index-f1aa1be4.js')
+    return FileResponse(f'./assets/index-fbf8f891.js')
 
-@app.get("/assets/index-d2edbefd.css")
+@app.get("/assets/index-2a0eab78.css")
 def returnCssAsset():
-    return FileResponse(f'./assets/index-d2edbefd.css')
+    return FileResponse(f'./assets/index-2a0eab78.css')
 
